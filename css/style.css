@@ -1,0 +1,541 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;               /* ширина всей полосы прокрутки */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #fff;        /* цвет зоны отслеживания */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #004f91;    /* цвет бегунка */
+    border-radius: 20px;       /* округлось бегунка */
+    border: 3px solid #fff;  /* отступ вокруг бегунка */
+  }
+
+a{
+    color: inherit;
+}
+
+.container_1{
+    max-width: 1820px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.container_2{
+    max-width: 1570px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header__inner{
+    padding: 63px 0 30px;
+    color: #009fe3;
+}
+
+.header-menu{
+    margin-bottom: 30px;
+}
+
+.header-menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.header-menu ul div{
+    width: 1px;
+    height: 20px;
+    background: rgb(0, 0, 0, 0.4);
+    margin: 0 5px 0 5px;
+}
+
+.header-menu ul li a{
+    padding: 15px 20px;
+    border-radius: 10px;
+    transition: all .3s;
+    border: solid 1px #fff;
+}
+
+.header-menu ul li a:hover{
+    border: solid 1px #009fe3;
+}
+
+.header-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__inner{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo{
+    width: 90px;
+}
+
+.logo__inner .title p:nth-child(1){
+    font-family: "Bona Nova", serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.logo__inner .title p:nth-child(2){
+    color: #009fe3;
+}
+
+.header-info__contacts {
+    display: flex;
+    flex-direction: column;
+    font-family: "Bona Nova", serif;
+    font-size: 20px;
+    font-weight: 700;
+    gap: 10px;
+}
+
+.header-info__contacts svg{
+    width: 21px;
+    height: 25px;
+}
+
+.tel, .city{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.path-il12z3tiv, .path-iavojv8c5, .path-ixkhe7cqs{
+    fill: #009fe3;
+}
+
+.performance{
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+
+.performance img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.performance-text{
+    display: inline-block;
+    max-width: 660px;
+    padding: 50px;
+    position: absolute;
+    background: #004f91;
+    left: 30px;
+    top: 30px;
+    color: #fff;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.performance-text p:first-child{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.performance-text h1{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.performance-text p:last-child{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.section-2{
+    padding: 100px 0 150px;
+}
+
+.products-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.products-text h3{
+    font-family: "Bona Nova", serif;
+    font-size: 58px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-right: solid 1px rgb(0, 0, 0, 0.4);
+    width: 68%;
+    color: #009fe3;
+}
+
+.products-text p{
+    width: 27%;
+}
+
+.products-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+}
+
+.products-cards .card{
+    border: solid 1px #009fe3;
+    text-align: center;
+    padding: 60px 30px;
+    border-radius: 20px;
+}
+
+.products-cards .card img{
+    max-width: 180px;
+    margin-bottom: 30px;
+}
+
+.section-3{
+    padding-bottom: 150px;
+}
+
+.about-us{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-us__img{
+    position: relative;
+    padding-left: 150px;
+}
+
+.on-the-market{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.about-us__img img{
+    width: 576px;
+    height: 700px;
+    object-fit: cover;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.on-the-market{
+    font-family: "Bona Nova", serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    background-color: #009fe3;
+    border-radius: 100%;
+    color: #fff;
+}
+
+.on-the-market span:first-child{
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.on-the-market span:last-child{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about-us__text{
+    max-width: 700px;
+}
+
+.about-us__text-title{
+    font-family: "Bona Nova", serif;
+    font-size: 76px;
+    font-weight: 700;
+    color: #009fe3;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about-us__text-info{
+    line-height: 25px;
+}
+
+.section-4{
+    padding-bottom: 100px;
+}
+
+.offers__block-title{
+    font-family: "Bona Nova", serif;
+    font-size: 58px;
+    font-weight: 700;
+    color: #009fe3;
+}
+
+.offers__block-list {
+    list-style: none;
+}
+
+.offers__block-list li {
+    position: relative;
+    padding: 20px 0 20px 40px;
+    font-variant: small-caps;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.offers__block-list li:before {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #009fe3;
+    content: "";
+    left: 0;
+    transition: .3s ease-in-out;
+    top: 31px;
+}
+
+.offers__block-list li:after {
+    position: absolute;
+    border-left: 1px dotted #4F5151;
+    width: 1px;
+    bottom: -18px;
+    content: "";
+    left: 4px;
+    top: 54px;
+}
+
+.offers__block-list li:hover:before{
+    box-shadow: 0 0 0 10px rgba(0,0,0,.2)
+}
+.offers__block-list li:last-child:after {
+    content: none;
+}
+
+.section-5{
+    padding-bottom: 150px;
+}
+
+.guarantees{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guarantees-title{
+    font-family: "Bona Nova", serif;
+    font-size: 58px;
+    font-weight: 700;
+    color: #009fe3;
+    padding-bottom: 100px;
+}
+
+.guarantees__block{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+}
+
+.guarantees__block-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #009fe3;
+}
+
+.guarantees__block-card img{
+    background-color: #009fe3;
+    border-radius: 100%;
+    padding: 20px;
+    margin-top: -50px
+}
+
+.guarantees__block-card p{
+    font-size: 18px;
+    line-height: 25px;
+    padding: 25px 35px 35px 35px;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    color: #fff;
+}
+
+.footer-geolocation{
+    width: 50%;
+}
+
+.footer-contacts{
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    background-color: #009fe3;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.footer-contacts-info p:first-child{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.footer-contacts-info p:nth-child(2){
+    font-size: 24px;
+}
+
+.footer-contacts-info span{
+    font-size: 24px;
+}
+
+.footer-contacts-info a{
+    font-size: 24px;
+}
+
+.footer-contacts-info p:last-child{
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+/* news.html */
+
+.container-news{
+    max-width: 1340px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.news-title{
+    font-family: "Bona Nova", serif;
+    font-size: 58px;
+    font-weight: 700;
+    color: #009fe3;
+    text-align: center;
+    padding: 40px 0 30px;
+    line-height: 1;
+}
+
+.new{
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.new-date{
+    display: block;
+    margin: 15px 0 10px;
+    color: grey;
+    font-size: 14px;
+}
+
+.new-title{
+    color: #004f91;
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.new-text{
+    line-height: 1.5;
+}
+
+.new-img{
+    width: 260px;
+    height: 270px;
+}
+
+.new-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* questionnaire.html */
+
+.container-questionnaire{
+    max-width: 760px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.questionnaire_inner{
+    max-width: 760px;
+}
+
+.questionnaire{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border: solid 1px #000;
+    height: 60px;
+    padding: 0 20px;
+    margin-bottom: 25px;
+    transition: all .3s;
+}
+
+input:focus{
+    border: solid 1px #009fe3;
+}
+
+.questionnaire-span{
+    padding-bottom: 10px;
+    color: #009fe3;
+}
+
+.questionnaire_inner-title{
+    font-family: "Bona Nova", serif;
+    font-size: 58px;
+    font-weight: 700;
+    color: #009fe3;
+    text-align: center;
+    padding: 40px 0 50px;
+    line-height: 1;
+}
+
+.questionnaire-button{
+    display: inline-block;
+    height: 60px;
+    width: 203px;
+    background-color: #009fe3;
+    color: #fff;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.questionnaire_privacy-policy{
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.8;
+    padding-bottom: 60px;
+    padding-top: 35px;
+}
+
+.questionnaire_privacy-policy a{
+    text-decoration: underline;
+}
